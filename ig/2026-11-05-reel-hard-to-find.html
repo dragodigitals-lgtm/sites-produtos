@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;background:#0a0b0f;font-family:'Inter',sans-serif;color:#f4f5f7;overflow:hidden;position:relative}
+.glow{position:absolute;width:1200px;height:1200px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,235,.38),rgba(37,99,235,0) 65%);top:-300px;left:-450px;animation:drift 12s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(380px,460px)}}
+.logo{position:absolute;top:120px;left:90px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:46px}
+.logo i{width:26px;height:26px;background:#2563eb;border-radius:4px}
+.s{position:absolute;left:90px;right:90px;top:600px;opacity:0;transform:translateY(40px)}
+.s h1{font-size:124px;line-height:1.03;letter-spacing:-5px;font-weight:600}
+.s h1 span{color:#7aa2ff}
+.e{font-family:'DejaVu Sans Mono',monospace;font-size:30px;letter-spacing:5px;color:#7aa2ff;margin-bottom:34px}
+.a{animation:inout 3s ease forwards 0.4s}
+.b{animation:inout 3s ease forwards 3.4s}
+.c{animation:inout 3s ease forwards 6.4s}
+.d{animation:in 1s ease forwards 9.4s}
+@keyframes inout{0%{opacity:0;transform:translateY(40px)}16%{opacity:1;transform:none}84%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-40px)}}
+@keyframes in{to{opacity:1;transform:none}}
+.cta{display:inline-block;margin-top:60px;background:#2563eb;color:#fff;font-weight:600;font-size:44px;padding:30px 48px;border-radius:18px}
+.badge{display:inline-block;margin-top:44px;font-family:'DejaVu Sans Mono',monospace;font-size:28px;background:#bef264;color:#0a0b0f;padding:8px 16px;border-radius:6px;font-weight:700}
+</style></head><body><div class="glow"></div>
+<div class="logo"><i></i>wwwswipe</div>
+<div class="s a"><div class="e">HERE'S THE TRUTH</div><h1>The best offers<br>aren't <span>secret.</span></h1></div>
+<div class="s b"><div class="e">THEY'RE JUST</div><h1><span>Hard to find.</span></h1></div>
+<div class="s c"><div class="e">SO WE DO THE DIGGING</div><h1>Every day.<br><span>Worldwide.</span></h1></div>
+<div class="s d"><h1>Start with<br><span>today's free picks.</span></h1><div class="badge">NEW FREE PICKS DAILY</div><br><div class="cta">wwwswipe.com</div></div>
+</body></html>
